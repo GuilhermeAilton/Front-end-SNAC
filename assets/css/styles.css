@@ -888,7 +888,7 @@ img {
 }
 
 .logosPatrocinadores {
-  overflow: hidden;
+  overflow: ;
   padding: 60px 0;
   white-space: nowrap;
   position: relative;
@@ -921,7 +921,7 @@ img {
 
 .logos-slide {
   display: inline-block;
-  animation: 35s slide infinite linear;
+  animation: 5s slide infinite linear;
 }
 
 .logos-slide img {
