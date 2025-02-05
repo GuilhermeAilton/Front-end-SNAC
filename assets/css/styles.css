@@ -1117,6 +1117,10 @@ p {
     flex-direction: row; /* Ajustando o layout para linha em telas menores */
     justify-content: space-around; /* Distribuindo os itens de forma mais eficiente */
   }
+
+  #largada_btn{
+
+  }
 }
 
 /* Estilos para dispositivos muito pequenos (como celulares) */
@@ -1127,6 +1131,11 @@ p {
 
   .discountSection {
     flex-direction: column; /* Voltando ao layout em coluna */
+  }
+  #largada_btn{
+    width: 98%;
+    font-size: 12px;
+  
   }
 }
 
