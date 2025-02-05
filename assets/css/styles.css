@@ -393,12 +393,7 @@ img {
 .discount__container {
 
   position: relative;
-  background-image: url('/assets/img/largada.jpg');
-  background-size: cover;
-  background-position: 10px;
-  padding: 2rem 1.5rem;
-  border-radius: .75rem;
-  height: aut;
+ 
 }
 
 .discount__title {
@@ -1098,4 +1093,44 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+#largada_img {
+  width: 40%;
+}
+
+.discountSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  #largada_img {
+    width: 60%; /* Ajustando a largura da imagem para telas menores */
+    margin-bottom: 10px;
+  }
+
+  .discountSection {
+    flex-direction: row; /* Ajustando o layout para linha em telas menores */
+    justify-content: space-around; /* Distribuindo os itens de forma mais eficiente */
+  }
+}
+
+/* Estilos para dispositivos muito pequenos (como celulares) */
+@media (max-width: 480px) {
+  #largada_img {
+    width: 80%; /* Imagem ainda maior em telas muito pequenas */
+  }
+
+  .discountSection {
+    flex-direction: column; /* Voltando ao layout em coluna */
+  }
+}
+
+#largada_btn{
+  background-color: green;
+
 }
