@@ -81,6 +81,7 @@ h1, h2, h3 {
 
 ul {
   list-style: none;
+  background-color: #000000;
 }
 
 a {
@@ -387,6 +388,7 @@ img {
   color: white;
   margin-bottom: var(--mb-1-5);
   line-height: var(--text-line-height);
+  text-align: justify;
 }
 
 /*=============== DISCOUNT ===============*/
@@ -888,7 +890,7 @@ img {
 }
 
 .logosPatrocinadores {
-  overflow: ;
+  overflow:  ;
   padding: 60px 0;
   white-space: nowrap;
   position: relative;
