@@ -1145,3 +1145,43 @@ p {
   background-color: green;
 
 }
+
+.section_camisa {
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+.section_camisa img {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .section_camisa img {
+
+    width: 90%;
+  }
+}
+
+/* Estilos para dispositivos muito pequenos (como celulares) */
+@media (max-width: 480px) {
+  .section_camisa img {
+
+    width: 90%;
+  }
+  
+   
+
+  .discountSection {
+    flex-direction: column; /* Voltando ao layout em coluna */
+  }
+  #largada_btn{
+    width: 98%;
+    font-size: 12px;
+  
+  }
+}
