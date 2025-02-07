@@ -1172,7 +1172,7 @@ p {
 
     width: 90%;
   }
-  
+
    
 
   .discountSection {
@@ -1182,5 +1182,37 @@ p {
     width: 98%;
     font-size: 12px;
   
+  }
+}
+
+
+.whatsapp-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #fd9b08;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.whatsapp-link:hover {
+  background-color: #1da851;
+}
+
+.whatsapp-link i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-link{
+    width: 300px;
   }
 }
