@@ -923,7 +923,7 @@ footer{
 
 .logos-slide {
   display: inline-block;
-  animation: 5s slide infinite linear;
+  animation: 10s slide infinite linear;
 }
 
 .logos-slide img {
@@ -949,7 +949,6 @@ swiper {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: ;
   -webkit-box-reflect: below 1px linear-gradient(transparent, transparent , #0002 , #0004);
 }
 
